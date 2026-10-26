@@ -13,3 +13,6 @@ Requires Node >= 22.6. Install as a dsh bundle (Add plugin -> local bundle) to g
 Charter texts (Mi-Wo-Jing et al.) 漏 the project owner, redistributed verbatim; code MIT.
 
 *"Cut the mountain, bridge the sea; sooner or later, all roads meet."*
+
+## Changelog
+- **v0.3.0** — fixed session-bus signature; per-seat ledgers (sid); folding now *sinks* originals to a cold sh table instead of deleting; mode: tree|standalone split (tree households: plugin logs only, files stay primary); internal gauge renamed word-heat (persona obeys host grades only); charter now machine-copied verbatim from the canonical source.
