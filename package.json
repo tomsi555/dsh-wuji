@@ -1,0 +1,22 @@
+{
+  "name": "dsh-wuji",
+  "version": "0.1.0",
+  "description": "鏃犳瀬鎻掍欢涓€鏈燂細鐜颁笘閬撹蹇嗘姌鍙狅紙鍏亾鍏〃 SQLite锛? 鍐呬笁灏告湰鍦拌鍐?+ 杞寘浜烘牸闂?鈥斺€?甯哥晫鏍戠郴缁熺殑 dsh 瀹㈡埛绔彃浠?| Changjie tree-system memory-folding & persona-adjudication plugin for DeepSeek Harness",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": { "default": "./lib/index.js" },
+    "./core": "./lib/core.mjs",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": ["lib", "charter", "cordis.patch.yml", "README.md", "README.zh.md", "LICENSE"],
+  "scripts": { "test": "node --test test/" },
+  "peerDependencies": { "@deepseek-ai/cordis": "^4.0.1" },
+  "peerDependenciesMeta": { "@deepseek-ai/cordis": { "optional": true } },
+  "engines": { "node": ">=22.6" },
+  "keywords": ["deepseek-harness", "dsh", "dsh-plugin", "memory", "persona", "changjie"],
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/tomsi555/dsh-wuji.git" },
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } }
+}
